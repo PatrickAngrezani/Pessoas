@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pessoas</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+      <!-- nascimento -->
+      <label for="nasc">Ano de Nascimento:
+        <input type="number" id="nasc" placeholder="Em qual ano você nasceu?" required/>
+      </label>
+      <br />
+      <!-- sexualidade -->
+      <label for="Sexo">Sexo: 
+        <input type="radio" name="sexo" value="masc" />Masculino
+        <input type="radio" name="sexo" value="fem" />Feminino
+      </label>
+      <br />
+      <!-- botao -->
+      <label for="validar">
+        <input type="button" value="Validar" onclick="verificar()"/>
+      </label>
+      <div id="resultado"> <br>
+        <p>Informe seus dados</p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy;PatrickAngrezani</p>
+    </footer>
+  </body>
+</html>
